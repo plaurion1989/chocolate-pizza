@@ -43,6 +43,10 @@ section p {
 }
 /* ingredients stuff */
 
+#ingredients{
+  display: flex;
+  background-image: url("img/list-bg.png");
+}
 #list-bg{
   position:absolute;
   z-index: -1;
@@ -61,3 +65,7 @@ section p {
   font-family: 'Patrick Hand', cursive;
 }
 /*git flow*/
+
+#footerblock{
+  text-align: center;
+}
